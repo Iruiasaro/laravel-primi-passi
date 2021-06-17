@@ -24,5 +24,10 @@ Route::get('/', function () {
 
 
 Route::get('/page1', function () {
-    return view('page1');    
+    return view('page1',[
+        "name" => "Jeffrey",
+        "surname" => "Lebowski",
+        "alias" => "Drugo"
+    ]);    
 });
+

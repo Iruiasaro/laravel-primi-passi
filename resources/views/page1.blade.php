@@ -8,6 +8,10 @@
 </head>
 <body>
     <h2>HELLO WORLD 2</h2>
- 
+<form action="">
+    <input type="text" value="{{$name}}">
+    <input type="text" value="{{$surname}}">
+    <input type="text" value="{{$alias}}">
+</form>
 </body>
 </html>

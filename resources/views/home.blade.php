@@ -27,5 +27,6 @@ Bonus: Creiamo più di una pagina e visualizziamo un header menu con i link di t
     <span>Nome: {{$name }} </span> <br>
     <span>Cognome: {{$surname}} </span> <br>
     <span>Alias: {{$alias}}</span>
+
 </body>
 </html>
