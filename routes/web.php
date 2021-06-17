@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('home');
+    return view('home', [
+        "name" => "Jeffrey",
+        "surname" => "Lebowski",
+        "alias" => "Drugo"
+    ]);    
+});
+
+
+Route::get('/page1', function () {
+    return view('page1');    
 });
