@@ -26,7 +26,10 @@ Bonus: Creiamo più di una pagina e visualizziamo un header menu con i link di t
 
     <span>Nome: {{$name }} </span> <br>
     <span>Cognome: {{$surname}} </span> <br>
-    <span>Alias: {{$alias}}</span>
+    <span>Alias: {{$alias}}</span> <br>
+    <br>
+
+    <a href="{{ route('page1') }}">Vai alla Page1</a>
 
 </body>
 </html>

@@ -29,5 +29,5 @@ Route::get('/page1', function () {
         "surname" => "Lebowski",
         "alias" => "Drugo"
     ]);    
-});
+})->name("page1");
 
